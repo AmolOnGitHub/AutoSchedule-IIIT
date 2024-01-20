@@ -1,7 +1,7 @@
 {
     "students": [
       {
-        "rollNumber": "2023101030",
+        "email": "ananth.rajesh@students.iiit.ac.in",
         "schedule": {
           "Sunday": {
             "breakfast": {
@@ -104,7 +104,7 @@
         }
       },
       {
-        "rollNumber": "2023101088",
+        "email": "siddharth.mago@students.iiit.ac.in",
         "schedule": {
           "Sunday": {
             "breakfast": {
@@ -207,7 +207,7 @@
         }
       },
       {
-        "rollNumber": "2023101089",
+        "email": "atharv.bhatt@students.iiit.ac.in",
         "schedule": {
           "Sunday": {
             "breakfast": {
@@ -310,7 +310,7 @@
         }
       },
       {
-        "rollNumber": "2023101093",
+        "email": "amol.vijayachandran@students.iiit.ac.in",
         "schedule": {
           "Sunday": {
             "breakfast": {
@@ -413,7 +413,7 @@
         }
       },
       {
-        "rollNumber": "2023101094",
+        "email": "sudarshan.nikhil@students.iiit.ac.in",
         "schedule": {
           "Sunday": {
             "breakfast": {
