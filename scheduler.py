@@ -7,7 +7,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
-SCOPES = ["https://www.googleapis.com/auth/calendar.readonly"]
+SCOPES = ["https://www.googleapis.com/auth/calendar"]
 
 def main():
     creds = None
@@ -33,29 +33,34 @@ def main():
     try:
         service = build("calendar", "v3", credentials=creds)
 
-        now = datetime.datetime.utcnow().isoformat() + "Z"  # 'Z' indicates UTC time
-        print("Getting the upcoming 10 events")
-        events_result = (
-            service.events()
-            .list(
-                calendarId="primary",
-                timeMin=now,
-                maxResults=10,
-                singleEvents=True,
-                orderBy="startTime",
-            )
-            .execute()
-        )
-        events = events_result.get("items", [])
+        # Read from JSON and add every necessary event
+        event = {
+            'organizer': {
+                'name': 'AutoScheduler',
+            },
+            'summary': 'Class_Name',
+            'location': 'H105',
+            'start': {
+                'dateTime': '2024-01-28T09:00:00+05:30',
+                'timeZone': 'Asia/Kolkata',
+            },
+            'end': {
+                'dateTime': '2024-01-28T10:00:00+05:30',
+                'timeZone': 'Asia/Kolkata',
+            },
+            'recurrence': [
+                'RRULE:FREQ=WEEKLY;UNTIL=20240424T000000Z;BYDAY=TU,TH'
+            ],
+            'reminders': {
+                'useDefault': False,
+                'overrides': [
+                {'method': 'popup', 'minutes': 60},
+                ],
+            },
+        }
 
-        if not events:
-            print("No upcoming events found.")
-            return
-
-        # Prints the start and name of the next 10 events
-        for event in events:
-            start = event["start"].get("dateTime", event["start"].get("date"))
-            print(start, event["summary"])
+        event = service.events().insert(calendarId='primary', body=event).execute()
+        print ('Event created: %s' % (event.get('htmlLink')))
 
     except HttpError as error:
         print(f"An error occurred: {error}")
