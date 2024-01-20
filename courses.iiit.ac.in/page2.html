@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile and Courses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff9d00;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            background-color: #727272;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ff9d00;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #ff9d00;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            animation: rotate 3s linear infinite;
+        }
+
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .profile h2 {
+            font-size: 2em;
+            color: #333;
+        }
+
+        .profile p {
+            font-size: 1.2em;
+            color: #777;
+        }
+
+        .profile p span {
+            font-weight: bold;
+        }
+
+        .courses {
+            margin-top: 40px;
+        }
+
+        .courses h2 {
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .course {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 20px 0;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+        }
+
+        .course:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .course h3 {
+            font-size: 1.3em;
+            color: #333;
+        }
+
+        .course p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        .course-details {
+            margin-top: 15px;
+        }
+
+        .course-details h4 {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .course-details p {
+            font-size: 1.1em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Moodle</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a style="color: #ff9d00;">Profile</a>
+        <a href="#">Courses</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="profile">
+            <img src="shutterstock_381063385.jpg" alt="User Profile Picture">
+            <h2>User's Name</h2>
+            <p><span>Roll Number:</span> XXXXXXX</p>
+            <p><span>House:</span> XXXX House</p>
+        </div>
+        <div class="courses">
+            <h2>Courses</h2>
+            <div class="course">
+                <h3>Course 1: Data Structures and Algorithms</h3>
+                <div class="course-details">
+                    <h4>Classes:</h4>
+                    <p>Days: Monday, Wednesday, Friday</p>
+                    <p>Timings: 9:00 AM - 10:30 AM</p>
+                    <h4>Labs:</h4>
+                    <p>Days: Wednesday, Friday</p>
+                    <p>Timings: 2:00 PM - 3:30 PM</p>
+                    <h4>Tutorials:</h4>
+                    <p>Days: Tuesday, Thursday</p>
+                    <p>Timings: 11:00 AM - 12:30 PM</p>
+                </div>
+            </div>
+            <div class="course">
+                <h3>Course 2: Linear Algebra</h3>
+                <div class="course-details">
+                    <h4>Classes:</h4>
+                    <p>Days: Tuesday, Thursday, Saturday</p>
+                    <p>Timings: 11:00 AM - 12:30 PM</p>
+                    <h4>Labs:</h4>
+                    <p>Days: Thursday, Saturday</p>
+                    <p>Timings: 1:00 PM - 2:30 PM</p>
+                    <h4>Tutorials:</h4>
+                    <p>Days: Monday, Wednesday</p>
+                    <p>Timings: 9:00 AM - 10:30 AM</p>
+                </div>
+            </div>
+            <div class="course">
+                <h3>Course 3: Computer Systems and Organization</h3>
+                <div class="course-details">
+                    <h4>Classes:</h4>
+                    <p>Days: Monday, Wednesday, Friday</p>
+                    <p>Timings: 2:00 PM - 3:30 PM</p>
+                    <h4>Labs:</h4>
+                    <p>Days: Wednesday, Friday</p>
+                    <p>Timings: 10:00 AM - 11:30 AM</p>
+                    <h4>Tutorials:</h4>
+                    <p>Days: Tuesday, Thursday</p>
+                    <p>Timings: 11:00 AM - 12:30 PM</p>
+                </div>
+            </div>
+            <div class="course">
+                <h3>Course 4: Introduction to Software Systems</h3>
+                <div class="course-details">
+                    <h4>Classes:</h4>
+                    <p>Days: Tuesday, Thursday, Saturday</p>
+                    <p>Timings: 10:00 AM - 11:30 AM</p>
+                    <h4>Labs:</h4>
+                    <p>Days: Thursday, Saturday</p>
+                    <p>Timings: 1:00 PM - 2:30 PM</p>
+                    <h4>Tutorials:</h4>
+                    <p>Days: Monday, Wednesday</p>
+                    <p>Timings: 9:00 AM - 10:30 AM</p>
+                </div>
+            </div>
+            <div class="course">
+                <h3>Course 5: Introduction to IOT</h3>
+                <div class="course-details">
+                    <h4>Classes:</h4>
+                    <p>Days: Wednesday, Friday</p>
+                    <p>Timings: 1:00 PM - 2:30 PM</p>
+                    <h4>Labs:</h4>
+                    <p>Days: Friday</p>
+                    <p>Timings: 3:00 PM - 4:30 PM</p>
+                    <h4>Tutorials:</h4>
+                    <p>Days: Monday, Wednesday</p>
+                    <p>Timings: 11:00 AM - 12:30 PM</p>
+                </div>
+            </div>
+            <div class="course">
+                <h3>Course 6: Arts</h3>
+                <div class="course-details">
+                    <h4>Classes:</h4>
+                    <p>Days: Monday</p>
+                    <p>Timings: 3:00 PM - 4:30 PM</p>
+                    <h4>Labs:</h4>
+                    <p>Days: Wednesday</p>
+                    <p>Timings: 10:00 AM - 11:30 AM</p>
+                    <h4>Tutorials:</h4>
+                    <p>Days: Thursday</p>
+                    <p>Timings: 9:00 AM - 10:30 AM</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
