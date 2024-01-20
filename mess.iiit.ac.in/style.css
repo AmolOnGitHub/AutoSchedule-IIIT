@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Ubuntu-Regular';
+    src: url('Attachments/Ubuntu-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://img.freepik.com/free-photo/vegetables-set-left-black-slate_1220-685.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705708800&semt=ais);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.toolbar {
+    font-family: 'Ubuntu-Regular';
+    padding-bottom: 20px;
+}
+
+.but {
+    background-color: rgb(149, 159, 204);
+    color: #2b0ca9;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: 5px solid #000000; /* Add a border around each button */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+}
+
+.but:hover {
+    cursor: pointer;
+    background: rgb(98, 85, 133);
+    color: rgb(157, 148, 148);
+    border: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block; /* Make li items inline */
+    margin-right: 10px; /* Add some spacing between li items */
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #370c41;
+    color: #fff;
+    border: 6px solid #a29c9c;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+.day {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.day h3 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #333;
+}
+
+.meals {
+    margin-top: 15px;
+}
+
+.meal {
+    font-size: 1.3em;
+    color: #555;
+    margin: 10px 0;
+}
