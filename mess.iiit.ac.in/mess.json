@@ -1,0 +1,520 @@
+{
+    "students": [
+      {
+        "rollNumber": "2023101030",
+        "schedule": {
+          "Sunday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "North",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Monday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "South",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Tuesday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "Kadamb-Veg",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Wednesday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "Kadamb-Veg",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Thursday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "North",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "North",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Friday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "Kadamb-Veg",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Saturday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "North",
+              "timing": "19:30 - 21:30"
+            }
+          }
+        }
+      },
+      {
+        "rollNumber": "2023101088",
+        "schedule": {
+          "Sunday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "North",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Monday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "South",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Tuesday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "Kadamb-Veg",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Wednesday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "Kadamb-Veg",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Thursday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "North",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "North",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Friday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "Kadamb-Veg",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Saturday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "North",
+              "timing": "19:30 - 21:30"
+            }
+          }
+        }
+      },
+      {
+        "rollNumber": "2023101089",
+        "schedule": {
+          "Sunday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "North",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Monday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "South",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Tuesday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "Kadamb-Veg",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Wednesday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "Kadamb-Veg",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Thursday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "North",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "North",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Friday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "Kadamb-Veg",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Saturday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "North",
+              "timing": "19:30 - 21:30"
+            }
+          }
+        }
+      },
+      {
+        "rollNumber": "2023101093",
+        "schedule": {
+          "Sunday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "North",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Monday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "South",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Tuesday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "Kadamb-Veg",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Wednesday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "Kadamb-Veg",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Thursday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "North",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "North",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Friday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "Kadamb-Veg",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Saturday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "North",
+              "timing": "19:30 - 21:30"
+            }
+          }
+        }
+      },
+      {
+        "rollNumber": "2023101094",
+        "schedule": {
+          "Sunday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "North",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Monday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "South",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Tuesday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "Kadamb-Veg",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Wednesday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "Kadamb-Veg",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Thursday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "North",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "North",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Friday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "Kadamb-Veg",
+              "timing": "19:30 - 21:30"
+            }
+          },
+          "Saturday": {
+            "breakfast": {
+              "Venue": "Kadamb Non-Veg",
+              "timing": "7:30 - 9:30"
+            },
+            "lunch": {
+              "Venue": "Kadamb-Veg",
+              "timing": "12:30 - 14:30"
+            },
+            "dinner": {
+              "Venue": "North",
+              "timing": "19:30 - 21:30"
+            }
+          }
+        }
+    }
+    ]
+  }
+  
